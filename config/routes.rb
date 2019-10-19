@@ -1,4 +1,3 @@
-  
 Rails.application.routes.draw do
 
   resources :artists do
@@ -7,7 +6,7 @@ Rails.application.routes.draw do
   resources :songs
 
 
-namespace :admin do
+  namespace :admin do
     resources :preferences
   end
 
